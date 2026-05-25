@@ -15,3 +15,5 @@ describe('smoke', () => {
     expect(pipelines.every((p) => typeof p.name === 'string')).toBe(true)
   })
 })
+
+
